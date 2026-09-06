@@ -1,13 +1,13 @@
 {
-  "name": "AFK Bot",
+  "name": "AFK Bro",
   "bot-account": {
-    "username": "SoloCloudHosting",
+    "username": "ThisbroisAFK",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "solocloud.host",
-    "port": 25565,
+    "ip": "8Myminecraft.aternos.me",
+    "port": 39809,
     "version": "1.20.1",
     "try-creative": false
   },

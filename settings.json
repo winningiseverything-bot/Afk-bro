@@ -19,26 +19,22 @@
   },
   "utils": {
     "auto-auth": {
-      "enabled": true,
-      "password": "SoloPlayz"
+      "enabled": false,           
+      "password": ""
     },
     "anti-afk": {
       "enabled": true,
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
-      "repeat": true,
+      "enabled": false,           
+      "repeat": false,
       "repeat-delay": 120,
-      "messages": [
-        "I'm a regular player",
-        "Subscribe to SoloPlayz!",
-        "Want Cheap Premium MC Server? https://discord.gg/VRMUnDkf95"
-      ]
+      "messages": []
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
+    "auto-reconnect-delay": 30000, // ← FIXED
     "max-reconnect-delay": 120000
   },
   "movement": {
@@ -61,7 +57,7 @@
     "avoidMobs": true,
     "combat": true,
     "beds": false,
-    "chat": true,
+    "chat": false,               
     "console-commands": true
   },
   "combat": {
@@ -82,6 +78,6 @@
     }
   },
   "chat": {
-    "respond": true
+    "respond": false              // ← DISABLE CHAT RESPONSE
   }
 }
